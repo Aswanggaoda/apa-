@@ -1,0 +1,65 @@
+Hai Gua terima kasih banget yg udah download nih file,
+oh ya pastikan Kalian udah subscribe like comment dan jangan lupa juga untuk share videonya karena itu membuat saya semangat untuk membuat video selanjutnya
+ok kalian tinggal copy paste aja command text di bawah ini.
+
+Untuk yg pertama ini adalah command tekt untuk install ubuntu.
+
+pkg update && pkg upgrade
+
+pkg install git
+
+pkg install wget
+
+pkg install proot
+
+git clone https://github.com/MFDGaming/ubuntu-in-termux
+
+cd ubuntu-in-termux
+
+chmod +x ubuntu.sh
+
+./ubuntu.sh
+
+./startubuntu.sh
+
+setelah ubuntu sudah di install kaliananjut ke proses miningnya masukan command text di bawah ini
+
+apt update
+
+apt upgrade
+
+apt install git
+
+apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+
+git clone https://github.com/xmrig/xmrig.git
+
+cd xmrig
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u BTT:TPKJKVaSg5uKgqxTzhCupNL4BGgcthebXD.Ham -p x -t 4
+
+
+jika ingin menjalankan kembali kalian tinggal ketikkan 
+
+cd ubuntu-in-termux
+
+./startubuntu.sh
+
+cd xmrig
+
+cd build
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u COIN:YOUR_ADDRESS.USERNAME -p x -t 4
+
+
+ok kalau udah selesai kalian bebas mining apa aja ok bye
+
+MASTER TERMUX INDONESIA
